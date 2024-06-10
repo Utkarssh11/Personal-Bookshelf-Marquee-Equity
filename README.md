@@ -42,3 +42,10 @@ Develop a React application allowing users to search for books using the Open Li
    ```bash
    git clone https://github.com/yourusername/personal-bookshelf.git
    cd personal-bookshelf
+
+
+   ## Contact 📧
+
+For any inquiries or suggestions, please contact us at [LinkedIn](https://www.linkedin.com/in/utkarsh-patidar-800081221/).
+
+Thank you!! 👻💞
