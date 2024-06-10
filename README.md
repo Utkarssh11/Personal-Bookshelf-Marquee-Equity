@@ -1,26 +1,44 @@
-# Personal Bookshelf  
-## Objective  
-Develop a React application allowing users to search for books using the Open Library API and maintain a personal bookshelf in the browser using localStorage.  
-## Technology Used  
-React JS, Open Library API
-## Features 
-- Search a book by its name  
-- Add Book to personal book shelf (By clicking on add book button. If book is already added then this button will not be shown)  
-- Responsive so that user can also use in mobile and other devices
-## Video Demostration 
+# Personal Bookshelf
 
+## Objective
+Develop a React application allowing users to search for books using the Open Library API and maintain a personal bookshelf in the browser using localStorage.
 
-https://github.com/RonakSurana-2001/Personal-Bookshelf/assets/100184606/9cdb4d1b-7755-4431-83d6-a80ca92c8b43
+## Technology Used
+- React JS
+- Open Library API
 
+## Features
+- Search a book by its name.
+- Add Book to personal bookshelf (By clicking on add book button. If book is already added, then this button will not be shown).
+- Responsive design to ensure usability on mobile and other devices.
 
-## Installation  
-```bash
-git clone https://github.com/RonakSurana-2001/Personal-Bookshelf.git
-npm install
-npm start
-```  
-The Application Will run on localhost:3000
-## Credits
-Made By <a href="https://www.linkedin.com/in/ronak-surana-944550205/" target="_blank">Ronak Surana</a>
-## Note
-After you type any word or letter you have wait for data to fetch.
+## Pages
+
+### Book Search Page
+- An input field for users to type in a book's name.
+- Real-time search results displayed as the user types.
+- Fetches book data from the Open Library API.
+- Displays search results in a list of cards, each representing a book result.
+
+### Personal Bookshelf Page
+- Users can add books from the search results to a "My Bookshelf" page.
+- Uses localStorage to store the user's bookshelf persistently.
+- A separate page to display the user's personal bookshelf.
+- A button on the search results page to navigate to the personal bookshelf page.
+
+## Tech Stack & Styling
+- Initialized with Create React App (CRA).
+- Styling can be done using any approach: CSS-in-JS, CSS modules, or regular CSS classnames.
+
+## Setup and Run Locally
+
+### Prerequisites
+- Node.js installed on your local machine.
+- npm (Node Package Manager) or yarn.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/personal-bookshelf.git
+   cd personal-bookshelf
