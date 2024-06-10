@@ -38,7 +38,7 @@ Develop a React application allowing users to search for books using the Open Li
 
 ## Screenshots
 ### Book Search Page
-![Book Search Page]([screenshots/book-search-page.png](https://github.com/Utkarssh11/Personal-Bookshelf-Marquee-Equity/blob/main/Screenshot%20(586).png))
+![Book Search Page](https://github.com/Utkarssh11/Personal-Bookshelf-Marquee-Equity/blob/main/Screenshot%20(586).png?raw=true)
 
 
 
